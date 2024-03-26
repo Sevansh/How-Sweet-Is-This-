@@ -1,0 +1,201 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-image: url('/images/wholebg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+    padding: 20px 20px;
+}
+
+header {
+    background-color: #663300;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#about h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+#about p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #663300;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-background {
+    background: linear-gradient(to bottom, #4b2506, #c79270);
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.card {
+    width: 30%;
+    border: 0px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 10px 8px 16px rgba(0, 0, 0, 0.8);
+}
+
+.card img {
+    width: 100%;
+    height: 70%;
+    border-radius: 20px;
+}
+
+.card-content {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.card-content h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #663300;
+}
+
+.card-content p {
+    margin: 10px 0;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+#products h2{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+}
+
+.reviews-background {
+    background-image: url('/images/bg.avif'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+    padding: 20px 20px;
+}
+
+.review {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-review {
+    width: 45%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background color for user review cards */
+}
+
+.user-review h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+}
+
+.user-review p {
+    margin: 0;
+}
+
+#reviews h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#reviews{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+#contact{
+    background: rgb(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 20px;
+}
+
+#contact h2{
+    font-size: 40px;
+    text-align: center;
+}
